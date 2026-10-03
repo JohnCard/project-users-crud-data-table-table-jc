@@ -36,7 +36,7 @@ function App() {
       })
     })
     .catch(error => console.error(error))
-    .id(() => console.info('deleted'))
+    .finally(() => console.info('deleted'))
   }
 
   const updateMethod = (id) => {
@@ -145,7 +145,7 @@ function App() {
             selector: row => row.name,
           },
           {
-            name: "Username",
+            name: "User",
             selector: row => row.username,
           },
           {
@@ -153,7 +153,7 @@ function App() {
             selector: row => row.email,
           },
           {
-            name: 'Update user',
+            name: 'Update',
             selector: row => <button
                                 type="button"
                                 className="btn btn-primary"
