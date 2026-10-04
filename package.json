@@ -22,6 +22,7 @@
     "react-data-table-component": "^8.11.0",
     "react-dom": "^19.2.0",
     "react-is": "^18.3.1",
+    "react-router-dom": "^7.18.4",
     "styled-components": "^6.5.3"
   },
   "devDependencies": {
